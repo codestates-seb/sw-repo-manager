@@ -1,6 +1,6 @@
 {
   "name": "sw-repo-manager",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "연습문제repo와 정답repo 관리하기",
   "main": "index.js",
   "scripts": {
@@ -25,11 +25,10 @@
     "nodegit": "^0.27.0",
     "signal-exit": "^3.0.7"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "swRepoManager": {
     "assignRepoName": "im-repo-manager",
-    "refRepoName"   : "im-repo-manager-ref",
+    "refRepoName": "im-repo-manager-ref",
     "masterRepoName": "sw-repo-manager-master"
   }
 }
