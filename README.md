@@ -15,6 +15,7 @@
 > () 및 {}-assign 폴더는 언제든 삭제되어도 무방하다, 
 > 해당내용은 assing branch and ref branch에 기록되어 있을뿐
 
+
 ## Config (진행중) 
 pachage.json 에 추가되어 있는 예시처럼 추가 해주세요.
 ```
@@ -29,6 +30,7 @@ pachage.json 에 추가되어 있는 예시처럼 추가 해주세요.
 - \<package-name>
 - \<package-name>-ref
 
+[] 아직은 package.json 의 scripts 에 해당된는 부분을 모두 직접 바꿔줘야 한다. 
 
 ## Environment 
 nodejs 14.19.1 for nodegit

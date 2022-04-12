@@ -8,7 +8,7 @@
     "init": "git branch assign && git branch ref && npm run deploy:ref:init && npm run deploy:assign:init",
     "deploy:ref:init": "mkdir ./im-repo-manager-ref && cd ./im-repo-manager-ref && git init && touch README.md && git add . && git commit -m 'init' && cd .. ",
     "deploy:assign:init": "mkdir ./im-repo-manager && cd ./im-repo-manager && git init && touch README.md && git add . && git commit -m 'init' && cd .. ",
-    "version": "git status && echo \"수강생에게 필요없는 코드는 ./.sw-repo-ignore 에 넣어주세요. \n코드가 모두 커밋되었나요.\" && node yesno.js && standard-version",
+    "version": "git status && echo \"수강생에게 필요없는 코드는 ./.sw-repo-ignore 에 넣어주세요. \n코드가 모두 커밋되었나요.\" && node ./src/yesno.js && standard-version",
     "deploy:assign": "git checkout assign && cd ./im-repo-manager && git reset --hard HEAD~1 && cp ../sw-repo-manager-main/* ./ && git add . && git commit -m 'ref' && cd .. && git checkout main",
     "deploy:ref": "git checkout ref && cd ./im-repo-manager && git reset --hard HEAD~1 && cp ../sw-repo-manager-main/* ./ && git add . && git commit -m 'ref' && cd .. && git checkout main",
     "deploy:ref:fix": "cd ./im-repo-manager-ref && touch fix.md && git add . && git commit -m 'fix: Keep at least 2 commits' && cd .. ",
