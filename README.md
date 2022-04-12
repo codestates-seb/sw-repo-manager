@@ -17,7 +17,7 @@
 
 
 ## Config (진행중) 
-pachage.json 에 추가되어 있는 예시처럼 추가 해주세요.
+package.json 에 추가되어 있는 예시처럼 추가 해주세요.
 ```
 "swRepoManager": {
     "assignRepoName": "im-repo-manager",
