@@ -1,6 +1,6 @@
 {
   "name": "sw-repo-manager",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "연습문제repo와 정답repo 관리하기",
   "main": "index.js",
   "scripts": {
