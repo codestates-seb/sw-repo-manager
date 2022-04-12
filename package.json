@@ -13,7 +13,7 @@
     "deploy:ref": "git checkout ref && cd ./im-repo-manager && git reset --hard HEAD~1 && cp ../sw-repo-manager-master/* ./ && git add . && git commit -m 'ref' && cd .. && git checkout master",
     "deploy:ref:fix": "cd ./im-repo-manager-ref && touch fix.md && git add . && git commit -m 'fix: Keep at least 2 commits' && cd .. ",
     "deploy:assign:fix": "cd ./im-repo-manager && touch fix.md && git add . && git commit -m 'fix: Keep at least 2 commits' && cd .. ",
-    "help:git:reinit": "rm -rf ./.git && git init && git add . && git commit -m 'config: package.json'",
+    "help:git:reinit": "false && rm -rf ./.git && git init && git add . && git commit -m 'config: package.json'",
     "help": "node ./src/index.js"
   },
   "author": "Seungwoo, Hong",
