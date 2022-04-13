@@ -82,5 +82,6 @@ git tag v0.1.1
 
 ## Todos
 [x] 우선 git 명령어로 준비 해둔다. 
+[ ] 사용된 프로젝트를 연결하고 소개한다. cs-devops-bootcamp/project3-microservices
 [ ] nodegit 으로 자연스럽게 자동으로 되도록 한다. 
 [ ] .sw-repo-ignore 폴더에 main path에는 있어도 좋지만, 수강생은 몰라도 되는 파일들을 정리하자
