@@ -20,9 +20,11 @@
 package.json 에 추가되어 있는 예시처럼 추가 해주세요.
 ```
 "swRepoManager": {
-    "assignRepoName": "im-repo-manager",
-    "refRepoName": "im-repo-manager-ref",
-    "masterRepoName": "sw-repo-manager-main"
+    "assignRepoPath": "project3-microservices-assign",
+    "assignRepoUrl": "git@github.com:cs-devops-bootcamp/project3-microservices-url.git",
+    "refRepoPath": "project3-microservices-ref",
+    "refRepoUrl": "git@github.com:cs-devops-bootcamp/project3-microservices-ref.git",
+    "mainRepoPath": "project3-microservices-main"
 }
 ```
 
