@@ -32,7 +32,7 @@ package.json 에 추가되어 있는 예시처럼 추가 해주세요.
 - \<package-name>
 - \<package-name>-ref
 
-[] 아직은 package.json 의 scripts 에 해당된는 부분을 모두 직접 바꿔줘야 한다. 
+[] 아직은 package.json 의 scripts 에 해당하는 부분을 모두 직접 바꿔줘야 한다. 
 
 ## Environment 
 nodejs 14.19.1 for nodegit
@@ -43,6 +43,12 @@ nodejs 14.19.1 for nodegit
 ## Usage
 
 ### 0. 사전준비 
+```bash
+# 필요한 npm package를 선택합니다.
+# nodegit 사용을 위해 .nvmrc에 명시된 Node.js 버전을 사용합니다.
+nvm use && npm install
+```
+
 ```
 npm run init
 ```
